@@ -160,7 +160,7 @@ namespace xl {
 			newnode->_next = cur;
 
 			cur->_prev = newnode;
-			newnode->_prev = cur;
+			newnode->_prev = prev;
 
 			return newnode; 
 		}
